@@ -21,12 +21,11 @@ p {
 
 /* Responsive YouTube iframe (match video styling) */
 .youtube-video {
-    width: 100%;
-    max-width: 800px;
-    aspect-ratio: 16 / 9;
-    border-radius: 5px;
-    display: block;
-    margin: auto;
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
 }
 
 
