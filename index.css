@@ -8,15 +8,27 @@ body {
     height: 100vh;
 }
 
-video, iframe {
+video {
     width: 100%;
     max-width: 800px;
+    border-radius: 5px;
     display: block;
 }
 
 p {
     font-size: 20px;
 }
+
+/* Responsive YouTube iframe (match video styling) */
+.youtube-video {
+    width: 100%;
+    max-width: 800px;
+    aspect-ratio: 16 / 9;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+}
+
 
 .header {
     margin: 0;
