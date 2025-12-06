@@ -8,7 +8,7 @@ body {
     height: 100vh;
 }
 
-video {
+video, iframe {
     width: 100%;
     max-width: 800px;
     border-radius: 5px;
